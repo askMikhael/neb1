@@ -13,53 +13,9 @@
 <BODY TEXT="#000000" LINK="#0000FF" VLINK="#800080" bgcolor=magenta>
 
 
-<style>
 
 
-  .video-background {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    overflow: hidden;
-  }
 
-  .video-background video {
-    width: 100%;
-    height: auto;
-    object-fit: fill;
-  }
-
-  .content {
-    position: relative;
-    z-index: 1;
-    text-align: center;
-    padding-top: 50vh;
-    color: white;
-  }
-</style>
-</head>
-<body>
-  <div class="video-background">
-    <video autoplay loop muted>
-      <source src="nebbg12.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  </div>
-
-  <div class="content">
-    <h1>Welcome to My Video Background</h1>
-    <p>This is a CSS-based video background example.</p>
-  </div>
-
-
-In this example, the CSS rules for the video background and content are defined in the <style> section. The <div> with the class video-background holds the <video> element, which is set to cover the entire background area using the object-fit: cover; property. The content is placed in a separate <div> with the class content, which is positioned above the video using the z-index property.
-
-Remember to replace "your-video.mp4" with the actual path to your video file.
-
-Using CSS in this manner allows for better separation of concerns, making your HTML and styling more maintainable and flexible.
 
 
 
